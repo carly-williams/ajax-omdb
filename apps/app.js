@@ -15,7 +15,7 @@ $(function(){
 			r: 'json'
 		};
 
-		url = 'http://www.omdbapi.com';
+		url = 'https://www.omdbapi.com';
 
 		$.getJSON(url, params, function(data){
 			showResults(data.Search);
